@@ -1,0 +1,142 @@
+#title{
+    background-color: #ff4c68;
+}
+    .mob{
+        width: 20%;
+        transform: rotate(25deg);
+        position: relative;
+        left: 60%;
+        
+    }
+    /* @media(max-width: 1280px){
+        .mob{
+            position: static;
+            transform: rotate(0);
+            
+    
+        }
+    } */
+    #features{
+        padding: 7% 15%;
+        display: flex;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+    .feature-box{
+        text-align:center;
+        padding: 5%;
+    }
+
+.menu-1{
+    position: relative;
+    left: 60%;
+}
+.menu1{
+    position: relative;
+    left: 65%;
+}
+.menu2{
+    position: relative;
+    left: 70%;
+}
+.menu3{
+    position: relative;
+    left: 75%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.h3{
+    font-family: "montserrate-bold";
+    color: #fff;
+}
+.container-fluid{
+    padding: 0% 1%;
+}
+/* btn-section */
+.Download-bottom{
+    padding: 1% 2% 1% 2%;
+}
+h1{
+    font-family: "montserrate-black";
+    font-size: 3rem;
+}
+h2{
+    font-family: "Montserrate-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+/* .container{
+    width: 400px;
+    height: 150px;
+} */
+/* p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    padding: 5% 0%;
+    color: #000;
+  } */
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 50%;
+    }
+  }
+  .Dog{
+      height: 300px;
+      width: 500;
+      position: static;
+      border-radius: 50%;
+      padding: 1% .5%;
+   }
+.icon{
+    color: #292828;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: black;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.next{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.icon-bar{
+    padding: 10px 10px;
+}
+/* .circular--portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } .circular--portrait img { width: 100%; height: auto; } */
